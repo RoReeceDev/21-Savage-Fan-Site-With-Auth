@@ -4,7 +4,7 @@
 // get all the tools we need
 var express  = require('express'); //gets express   
 var app      = express();
-var port     = process.env.PORT || 8080; //port is whatever th
+var port     = process.env.PORT || 8000; //port is whatever th
 const MongoClient = require('mongodb').MongoClient //helps talk to databse
 var mongoose = require('mongoose'); //how we really talk to our database
 var passport = require('passport'); //authentication 
